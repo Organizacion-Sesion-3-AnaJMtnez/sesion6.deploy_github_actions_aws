@@ -36,7 +36,7 @@ jobs:
         # AWS Secret Key
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         # AWS Session Token (necesaria en los laboratorios de AWS Academy)
-        aws_session_token: ${{ secrets.AWS_SESSION_TOKEN}}
+        aws_session_token: ${{ secrets.AWS_SESSION_TOKEN }}
         # AWS Region
         region: us-east-1
         # Nombre de la aplicación creada en Beanstalk
