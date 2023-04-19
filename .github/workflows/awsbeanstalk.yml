@@ -40,10 +40,10 @@ jobs:
         # AWS Region
         region: us-east-1
         # Nombre de la aplicación creada en Beanstalk
-        application_name: AplicacionActionsAWS.amm
+        application_name: App1AWSamm
         # Nombre del entorno creado en Beanstalk
-        environment_name: Aplicacionactionsawsamm-env
+        environment_name: App1awsamm-env
         # Nombre de la versión a crear en Beanstalk
-        version_label: v1.0
+        version_label: v1.1
         # Archivo con el código de la aplicación (generado en el paso anterior)
         deployment_package: deploy.zip
